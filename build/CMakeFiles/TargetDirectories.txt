@@ -1,0 +1,3 @@
+C:/Users/gabau/temp/projeto-estrutura/build/CMakeFiles/Projeto N1.dir
+C:/Users/gabau/temp/projeto-estrutura/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/gabau/temp/projeto-estrutura/build/CMakeFiles/ZERO_CHECK.dir

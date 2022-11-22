@@ -1,0 +1,10 @@
+^C:\USERS\GABAU\TEMP\PROJETO-ESTRUTURA\BUILD\CMAKEFILES\3FFEF767F38F3EFE29F865C704FAD6C1\GENERATE.STAMP.RULE
+setlocal
+D:\Programs\CMake\bin\cmake.exe -SC:/Users/gabau/temp/projeto-estrutura -BC:/Users/gabau/temp/projeto-estrutura/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/gabau/temp/projeto-estrutura/build/Projeto N1.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\GABAU\TEMP\PROJETO-ESTRUTURA\CMAKELISTS.TXT
+setlocal
+D:\Programs\CMake\bin\cmake.exe -SC:/Users/gabau/temp/projeto-estrutura -BC:/Users/gabau/temp/projeto-estrutura/build --check-stamp-file C:/Users/gabau/temp/projeto-estrutura/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
